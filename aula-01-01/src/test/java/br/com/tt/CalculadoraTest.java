@@ -68,7 +68,6 @@ public class CalculadoraTest {
 		assertTrue(new Calculadora().dividir(5D, null).isInfinite());
 	}
 	
-
 	@Test
 	public void testDividirDoisNull() {	
 		assertEquals(new Double(0), new Calculadora().dividir(null, null));
