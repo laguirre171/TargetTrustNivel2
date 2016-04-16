@@ -8,7 +8,8 @@ import org.junit.Before;
 
 public class Sistema {
 	
-	public double calcularSalarioAnual = 0.0D; 
+	public double calcularSalarioAnual = 0.0D;
+		
 	@Before
 	public void testCalculaSalario() {
 
@@ -20,7 +21,6 @@ public class Sistema {
 		FuncionarioService funcionarioService = new FuncionarioService();
 		calcularSalarioAnual = funcionarioService.CalcularSalarioAnual(funcionario.getSalario());
 		funcionarioService.AvaliacaoSalarioAnual(calcularSalarioAnual);
-
 	}
 	
 	@Test
