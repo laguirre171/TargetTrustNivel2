@@ -1,5 +1,6 @@
 package br.com.tt;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -34,6 +35,16 @@ public class Teste extends TestCase{
 	@Test
 	public void teste2(){
 		assertTrue(true);
+	}
+	
+	@After
+	public void tearDown(){
+		valor1 = 0D;
+		valor2 = 0D;
+		
+		//Fecha Conexão e recursos
+		
+		
 	}
 
 }
