@@ -8,12 +8,12 @@ import org.junit.Test;
 public class JUnitAnnotation {
 	
 	@BeforeClass
-	public void antesDaClasse(){
+	public static void antesDaClasse(){
 		System.out.println("Antes da Classe");
 	}
 	
 	@AfterClass
-	public void depoisDaClasse(){
+	public static void depoisDaClasse(){
 		System.out.println("Depois da Classe");
 	}
 	
@@ -30,6 +30,11 @@ public class JUnitAnnotation {
 	@Test
 	public void meuTeste(){
 		System.out.println("Meu Teste");
+	}
+	
+	@Test
+	public void meuTeste2(){
+		System.out.println("Meu Teste2");
 	}
 	
 	@Ignore 
