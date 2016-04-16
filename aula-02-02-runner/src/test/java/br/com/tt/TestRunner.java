@@ -13,6 +13,11 @@ public class TestRunner {
 			System.out.println(failure.getTrace());
 		}
 		System.out.println(result.wasSuccessful());
+		
+		int qtdRunCount = result.getRunCount();
+		int qtdRunFailed = result.getFailureCount();
+		System.out.println("Testes Executados: " + qtdRunCount);
+		System.out.println("Testes Failed    : " + qtdRunFailed);
 	
 	}
 }

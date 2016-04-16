@@ -12,6 +12,6 @@ public class MensagemUtil {
 	}
 	
 	public String saudacaoMensagem(){
-		return "Olá " + mensagem;
+		return "Ola " + mensagem;
 	}
 }
