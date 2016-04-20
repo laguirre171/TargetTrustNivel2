@@ -1,41 +1,46 @@
 package br.com.tt;
 
 /**
- * @author sala03
+ * @author instrutor
  *
  */
 public class Calcular {
 
-
   /**
-   * Primeiro Valor
+   * teste
    */
   private transient Integer valor1 = 0;
-
   /**
-   * Segundo Valor
+   * teste sfdgsfg sfdgs df
    */
   private transient Integer valor2 = 0;
-
   /**
-   * Valor Total
+   * teste sfgs dfgsdfgsd
    */
   private transient Integer resultado = 0;
 
+
+
   /**
-   * Construtor
+   * 
    */
   public Calcular() {
     super();
-    // TODO Auto-generated constructor stub
   }
 
-  public void setValor1(Integer v1) {
-    this.valor1 = v1;
+  /**
+   * @param valor1
+   */
+  public void setValor1(Integer valor1) {
+
+    this.valor1 = valor1;
+
   }
+
 
   public void setValor2(Integer v2) {
-    this.valor2 = v2;
+
+    valor2 = v2;
 
   }
 
@@ -46,6 +51,5 @@ public class Calcular {
   public Integer getResultado() {
     return resultado;
   }
-
 
 }
